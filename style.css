@@ -1,0 +1,648 @@
+body {
+  overflow-y: auto;
+  margin: 0;
+}
+
+header {
+  position: sticky; /* Allocates space for the element, but moves it with you when you scroll */
+  top: 0; /* specifies the start position for the sticky behavior - 0 is pretty common */
+  width: 100%;  
+}
+
+p {
+	color: #5d5b59; 
+}
+
+.clearfix:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+body {
+	font-family: open sans,sans-serif;
+	margin:0;
+}
+
+footer {	
+	background:#1A202C;
+	padding: 2%;
+}
+
+h2 {
+	padding:  1%;
+	padding-left: 3%;
+	font-size: 30px;
+  color: #5d5b7c;
+}
+
+h4 {
+  color: #f3f3f3;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration:none; 
+}
+
+a:hover {
+	text-decoration: none;
+  color: #ce1414;
+}
+
+hr {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    border: 0;
+    border-top: 1px solid #d2cbcb94;
+}
+
+header {
+  background: #0f1428d1;
+  color: #D3A357;
+  font-size: 24px;
+  padding-top: 2px;
+}
+
+.header-logo {
+	display: inline-block;
+	vertical-align: top;
+  margin-left: 1%;
+}
+
+.header-h2 {
+	display: inline-block;
+}
+
+.header-h2 p {
+	display: inline-block;
+	margin: 0;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	color: #8482a5;
+}
+
+.nav {
+  background: #ececec;
+  color: #5d5b59;
+  text-align: center;
+  display: inline-block;
+  width: 12%;
+  margin-right: 1%;
+  margin-left: 1%;
+  float: left;
+  position: sticky;
+  top: 10%;
+  font-size: 17px;
+  padding: 2% 0;
+  border-radius: 3px;
+  box-shadow: 1px -1px 13px 6px rgba(0, 0, 0, 0.08);
+  border: solid 1px;
+  border-color: #96929259;
+}
+
+.genero a {
+  color: #5d5b59;
+}
+
+.genero a:hover {
+  color: #ce1414;
+}
+
+.trailer { 
+  display: inline-block;
+  float: right;
+  width: 60%;
+}
+
+.trailer iframe {
+	float: right;
+}
+
+* {
+	margin :0;
+	padding: 0; 
+}
+
+.peliculas {
+  display: inline-block;
+  background: #f3f3f3;
+  width: 85%;
+  margin-top: 3px;
+}
+
+.main {
+	display: block;
+	background: #f3f3f3;
+}
+
+.lomasvisto{
+  margin-top: 1%;
+  width: 1080px;
+  padding-left: 3%;  
+  background-color: #f3f3f3;    
+  border-radius: 3px;
+  box-shadow: 1px -1px 13px 6px rgba(0,0,0,.1);
+  border: solid 1px;
+  border-color: #969292;
+}
+
+.lomasvisto a {
+  color: #5d5b7c;
+}
+
+.lomasvisto h2:hover {
+  color: #ce1414;
+  }
+
+.subtitulo {
+  font-weight: 600;
+} 
+
+.descripcion {
+  padding-top: 1%;
+	display: inline-block;
+	width: 33%;
+	text-align: left;
+	float: left;
+}
+.descripcion p {
+	padding-right: 18%;
+}
+
+.recos {
+	margin-top: 1%;
+	display: inline-block;
+	background: #f3f3f3;
+	width: 100%;
+}
+
+.recos h2 {	
+	padding: 1%;
+	padding-top: 0;
+	padding-left: 2%;
+  background-color: #f3f3f3;
+  color: #5d5b7c;
+}
+
+.peli {
+  display: inline-block;
+  width: 33%;
+  background: #f3f3f3;
+  position: relative;
+  float: left;
+  border-radius: 3px;
+  box-shadow: 1px -1px 13px 6px rgba(0,0,0,.1);
+  border: solid 1px;
+  border-color: #c7c7c7;
+  margin-bottom: 1%;
+}
+
+.descripcion-reco {
+	display: inline-block;
+	width:100%;
+}
+
+.descripcion-reco a {	
+  padding-left: 4%;
+  font-size: 22px;
+}
+
+.imag {
+	display: inline-block;
+	float:right;
+	width: 52%;
+}
+.imag img {
+	float: right;
+}
+
+.imag img:hover {
+  -webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+  filter: blur(4px);
+}
+
+.desc {
+  padding-right: 3%;
+  padding-left: 3%;
+}
+
+.puntaje{
+  position: absolute;
+  bottom: 0;	
+  width: 44%
+}
+
+.our {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.audience{
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.text{
+	display: inline-block;
+	width: 44%;
+	padding: 2%;
+}
+
+
+/*Seccion footer*/
+.logo-principal-footer
+{
+  display: inline-block;  
+  background-color: #1a202c;
+  float: left;
+  width: 19%;
+  border-right: solid 1px;
+}
+
+.logo-principal-footer img
+{
+  width: 60%;
+}
+
+.contenedor-contactos {
+  display: inline-block;
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-right: 5%;
+  border-right: solid 1px;
+}
+
+.contenedor-titulo
+{
+  display: block;
+  margin-top:-1%;
+}
+
+.contenedor-logos-redes-sociales
+{
+  display: block;
+  padding-left: 6%;
+}
+
+.logo-red-social
+{
+  padding-top: 1%;
+}
+
+.logo-red-social img
+{
+  width: 25%;
+  padding-left: 12%;
+}
+
+.contenedor-direccion
+{
+  display: block;
+  padding: 5% 7% 6% 12%;
+}
+
+.contenedor-redes-sociales
+{
+  display: inline-block;
+  float: left;
+  width: 11%;
+  border-right: solid 1px;
+}
+
+.contenedor-visitar
+{
+  display: inline-block;
+  float: right;
+  margin-left: 5%;
+  margin-right: 15%;
+  padding-right: 5%;
+}
+
+.contenedor-categoria
+{
+  display: block;
+    padding: 6% 9% 5% 23%;
+}
+
+.vacio
+{
+  display: inline-block;
+  float: left;
+  width: 8%;
+}
+
+.contenedor-borde
+{
+  display: inline-block;
+  float: right;
+  width: 80%;
+  background-color: #1a202c;
+}
+
+.contenedor-borde hr
+{
+  margin: 1rem 0;
+  border-color: #1a202c;
+  opacity: 0.1;
+}
+
+.contenedor-borde p
+{
+  text-align: center;
+}
+
+.contenedor-categoria h4:hover {
+  color: #ce1414;
+}
+
+
+/*seccion review*/
+.review {
+  margin-top: 1%;
+  margin-left: 12%;
+  width: 66%;
+  background-color: #f3f3f3;    
+  border-radius: 3px;
+  box-shadow: 1px -1px 13px 6px rgba(0,0,0,.1);
+  border: solid 1px;
+  border-color: #969292;
+  margin-bottom: 2%;
+  padding-bottom: 3%;
+}
+
+.review img {
+  width: 100%;
+}
+
+.review h1 {
+  margin-left: 6%;
+  margin-right: 6%;
+  color: #b3af85;
+  text-align: center;
+}
+
+#mainp {
+  color: #727668;
+  padding-bottom: 2%;
+  text-align: center;
+} 
+
+.review p {
+  margin-left: 11%;
+  margin-top: 1%;
+  margin-right: 11%;
+}
+
+#gradA_1 {
+  background-color: rgb(52, 53, 37);
+  margin-left: -1px;
+}
+
+
+/*seccion estrenos*/
+.slide
+{
+  width: 50%;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  overflow: hidden;
+}
+.slide ul
+{
+  /*background-color: rgb(236,240,129); */
+  display: flex;
+  width: 300%;
+  animation: cambio 20s infinite alternate; 
+}
+
+.slide li
+{
+  width: 100%;
+  list-style: none;
+}
+
+.slide img
+{
+  width: 100%;
+}
+
+@keyframes cambio
+{
+  0%{margin-left: 0%}
+  10%{margin-left: 0%}
+
+  15%{margin-left: -100%}
+  25%{margin-left: -100%}
+
+  30%{margin-left: -200%}
+  40%{margin-left: -200%}
+
+} 
+
+.imagen-left
+{
+  display: inline-block;
+  float: left;
+  padding-left: 2%;
+  width: 28%;
+}
+
+.lomasvisto-estrenos {
+  margin-top: 1%;
+  margin-left: 12%;
+  width: 66%;
+  background-color: #f3f3f3;    
+  border-radius: 3px;
+  box-shadow: 1px -1px 13px 6px rgba(0,0,0,.1);
+  border: solid 1px;
+  border-color: #969292;
+  margin-bottom: 2%;
+  padding-bottom: 4%;
+}
+
+.descripcion-estrenos {
+  float: left;
+ padding-left: 3%;
+  display: inline-block;
+  width: 59%;
+  padding-right: 8%;
+}
+
+.titulo-descripcion {
+  font-family: 'Flamenco', cursive;
+}
+
+.lomasvisto-estrenos h2 {
+  padding: 0;
+  padding-top: 2%;
+  padding-left: 4%;
+}
+
+
+/*barra de busqueda*/
+
+.flexsearch--wrapper {
+  height: auto;
+  width: auto;
+  max-width: 75%;
+  overflow: hidden;
+  background: transparent;
+  margin: 0;
+  position: static;
+  float: right;
+}
+  
+.flexsearch--form {
+  overflow: hidden;
+  position: relative;
+}
+  
+.flexsearch--input-wrapper {
+  padding: 0 66px 0 0; /* Right padding for submit button width */
+  overflow: hidden;
+}
+
+.flexsearch--input {
+  width: 100%;
+}
+
+/***********************
+ * Configurable Styles *
+ ***********************/
+.flexsearch {
+  float: right;
+   margin-top: 5px;
+  display: inline-block;
+  padding: 0 1% 0 200px; /* Padding for other horizontal elements */
+}
+
+.flexsearch--input {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 0 46px 0 10px;
+  border-color: #888;
+  border-radius: 35px; /* (height/2) + border-width */
+  border-style: solid;
+  border-width: 5px;
+   color: #f3f3f3d9;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+}
+  
+.flexsearch--submit {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  border: none;
+  margin-top: -13px; /* margin-top + border-width */
+  margin-right: 5px; /* border-width */
+  background: transparent;
+  color: #888;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 26px;
+  line-height: 60px;
+}
+
+.flexsearch--input:focus {
+  outline: none;
+  border-color: #f3f3f3d9;
+}
+
+.flexsearch--input:focus.flexsearch--submit {
+  color: #333; 
+}
+
+.flexsearch--submit:hover {
+  color: #f3f3f3d9;
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+  color: #888;  
+}
+
+input:-moz-placeholder {
+  color: #888
+}
+
+.comentario{
+  display: inline-block;
+  margin: 0 0 0 15%;
+  width: 70%;
+  padding:2% 5% 0 5%;
+  border-radius: 3px;
+  box-shadow: 1px -1px 13px 6px rgba(0,0,0,.1);
+  border: solid 1px;
+  border-color: #969292;
+  margin-bottom: 2%;
+  padding-bottom: 4%;
+  color: #5d5b59;
+}
+
+.comentario textarea{
+  width: 70%;
+  height: 200px;
+  box-shadow: 1px -1px 13px 6px rgba(0,0,0,.1);
+  color: #5d5b59;
+}
+
+
+.datapadre{
+  width: 100%;
+  padding: 0 0 0 5%;
+}
+
+.data{
+  display: inline-block;
+  width: 10%;
+}
+
+.data2{
+  box-shadow: 1px -1px 13px 6px rgba(0,0,0,.1);
+  display: inline-block;
+}
+
+.botonpadre{
+  width: 100%;
+}
+.bottom{
+ width: 30%;
+  display: inline-block;
+  padding: 0 0 0 5%;
+}
+
+.bottom2{
+  width: 30%;
+  display: inline-block;
+  padding: 0 0 0 5%;
+}
+
+
+#sr{
+  font-size: 125%;
+  width: 80%;
+   color: #5d5b59;
+}
+
+.datapadre:hover{
+  color:red;
+
+}
+.data2:hover{
+border:1px solid red;
+ 
+}
