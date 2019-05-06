@@ -95,7 +95,7 @@ header {
   margin-left: 1%;
   float: left;
   position: sticky;
-  top: 10%;
+  top: 68px;
   font-size: 17px;
   padding: 2% 0;
   border-radius: 3px;
@@ -131,7 +131,6 @@ header {
   display: inline-block;
   background: #f3f3f3;
   width: 85%;
-  margin-top: 3px;
 }
 
 .main {
@@ -140,7 +139,7 @@ header {
 }
 
 .lomasvisto{
-  margin-top: 1%;
+  margin-top: 20px;
   width: 1080px;
   padding-left: 3%;  
   background-color: #f3f3f3;    
@@ -363,7 +362,7 @@ header {
 
 /*seccion review*/
 .review {
-  margin-top: 1%;
+  margin-top: 20px;
   margin-left: 12%;
   width: 66%;
   background-color: #f3f3f3;    
@@ -454,7 +453,7 @@ header {
 }
 
 .lomasvisto-estrenos {
-  margin-top: 1%;
+  margin-top: 20px;
   margin-left: 12%;
   width: 66%;
   background-color: #f3f3f3;    
@@ -671,4 +670,3 @@ input:-moz-placeholder {
 .textarea-comments {
   margin-left: 15%;
 }
-
